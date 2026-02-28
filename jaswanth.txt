@@ -1,0 +1,154 @@
+"# Original Mode HQ - Product Requirements Document
+
+## Project Overview
+**Project Name:** Original Mode - Warrior Mindset Landing Page  
+**Brand:** originalmode.hq  
+**Theme:** Discipline, Power, Self-Mastery, Warrior Mindset, Growth, Focus, Mental Strength  
+**Created:** January 2025  
+
+## User Personas
+1. **The Aspiring Warrior**: Individuals seeking self-improvement through discipline and mental strength
+2. **Performance Seekers**: People looking for tools and strategies to optimize their life
+3. **Community Members**: Those wanting to join a like-minded community committed to excellence
+4. **Product Customers**: Buyers interested in mindset tools, digital products, and warrior apparel
+
+## Core Requirements (Static)
+
+### Design System
+- **Color Palette**: Network-inspired design system
+  - Backgrounds: #FAFFEE (page), #FAFAFF (cards), #EDEDFE (subtle), #CACAFC (sections)
+  - Text: #004534 (primary), #0C6951 (secondary), #807979 (light)
+  - Brand Colors: #D3FF62 (primary), #004534 (dark), #0C6951 (hover)
+- **Typography**: Inter font family with responsive sizing
+- **UI Components**: Pill-shaped buttons (25-33px border-radius), network cards with hover effects
+- **90/10 Color Rule**: Color only on small interactive elements, rest white/light backgrounds
+
+### Page Structure
+1. Hero Section - Brand introduction with logo
+2. About Section - Philosophy overview
+3. Philosophy Section - 4 core pillars (Discipline, Growth, Focus, Power)
+4. Products Section - Ecommerce-ready product showcase with filtering
+5. Videos Section - YouTube video embeds
+6. Quotes Section - Motivational warrior quotes
+7. Blog Section - Articles and insights
+8. Newsletter Section - Email signup
+9. Contact Section - Contact form (mailto functionality)
+10. Footer - Comprehensive links and social media
+
+### Features
+- Fully responsive design (mobile, tablet, desktop)
+- Shopping cart with localStorage persistence
+- Add to cart functionality with visual feedback
+- Product filtering by category
+- Smooth scroll navigation
+- Newsletter subscription form
+- Contact form with mailto integration
+- Social media integration (placeholder links)
+
+## What's Been Implemented (January 2025)
+
+### Phase 1: Frontend with Mock Data ✅
+**Date:** January 2025
+
+**Components Created:**
+- Header with fixed navigation and cart button
+- Hero section with brand logo and CTAs
+- About section with philosophy text
+- Philosophy section with 4 core pillars
+- Products section with 6 products (3 categories)
+- Videos section with 3 YouTube placeholder embeds
+- Quotes section with 6 warrior mindset quotes
+- Blog section with 3 article cards
+- Newsletter subscription form
+- Contact form with mailto integration
+- Footer with links and social media icons
+- Cart sidebar with add/remove/quantity controls
+
+**Data Structure (Mock):**
+- 6 Products (Mindset Tools, Digital Products, Apparel)
+- 6 Motivational Quotes
+- 3 Blog Posts
+- 3 YouTube Video Placeholders
+- 4 Philosophy Pillars
+
+**Cart Functionality:**
+- Add to cart with toast notifications
+- Cart persistence using localStorage
+- Quantity adjustment (increase/decrease)
+- Remove items from cart
+- Clear entire cart
+- Cart count badge display
+- Cart total calculation
+- Checkout placeholder
+
+**Contact Information:**
+- Email: jlreddy9929@gmail.com
+- Social Media: Placeholder links (Instagram, YouTube, Twitter, Email)
+
+**Technical Stack:**
+- React 19 with hooks
+- Shadcn UI components
+- Lucide React icons
+- Sonner for toast notifications
+- Context API for cart state management
+- CSS with custom design system
+
+## Prioritized Backlog
+
+### P0 Features (Critical)
+- [ ] Replace logo placeholder with actual user-provided logo (ori.jpeg is ready)
+- [ ] Add real YouTube video IDs when available
+- [ ] Update social media links with actual URLs
+
+### P1 Features (High Priority)
+- [ ] Backend API development (Node.js/Python FastAPI)
+  - Product catalog management
+  - Newsletter subscription storage
+  - Contact form email service integration (SendGrid/NodeMailer)
+  - Order management system
+- [ ] Database integration (MongoDB)
+  - Products collection
+  - Newsletter subscribers collection
+  - Blog posts collection
+  - Orders collection
+- [ ] Payment gateway integration (Stripe/PayPal)
+- [ ] User authentication system
+- [ ] Admin dashboard for content management
+
+### P2 Features (Nice to Have)
+- [ ] Blog post detail pages with full content
+- [ ] Product detail pages with more information
+- [ ] User reviews and ratings system
+- [ ] Related products recommendations
+- [ ] Search functionality
+- [ ] Wishlist feature
+- [ ] Order tracking system
+- [ ] Email marketing automation
+- [ ] Analytics integration (Google Analytics)
+- [ ] SEO optimization
+
+## Next Tasks
+1. User to provide actual logo file (if different from ori.jpeg)
+2. User to provide real YouTube video IDs
+3. User to provide actual social media URLs
+4. Backend development phase planning
+5. Payment gateway setup and integration
+6. Email service provider selection and setup
+
+## Technical Notes
+- Frontend runs on port 3000
+- Backend API ready at port 8001 (currently minimal endpoints)
+- All mock data in `/app/frontend/src/data/mock.js`
+- Cart state managed via Context API in `/app/frontend/src/context/CartContext.js`
+- Design system follows exact Network color specifications
+- Responsive breakpoints: 768px (tablet), 1024px (desktop)
+
+## Contact & Communication
+- **Contact Email:** jlreddy9929@gmail.com
+- **Brand Name:** originalmode.hq
+- **Theme:** Warrior Mindset, Discipline, Self-Mastery
+
+---
+
+**Last Updated:** January 2025
+"
